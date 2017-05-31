@@ -1,2 +1,6 @@
 hi this is mergeing conflict
+<<<<<<< HEAD
 Second line for github modification
+=======
+Second line of the merging
+>>>>>>> admin
