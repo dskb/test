@@ -1,0 +1,2511 @@
+sudo apt-get install openssh-server
+
+
+Rvm Installation
+----------------
+
+1)sudo apt-get update   1612126272 01509564688
+
+2)sudo apt-get install curl git-core
+
+3)\curl -sSL https://get.rvm.io | bash
+
+4)echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function' >> ~/.bash_profile
+
+5)source ~/.bash_profile
+                                        
+6)type rvm | head -1
+
+7)rvm install 1.8.7
+
+8) sudo apt-get install  ruby ruby-full build-essential libruby ruby1.8-dev  libxslt1-dev libxml2-dev  zlib1g-dev libreadline6-dev openssl libssl-dev libpq-dev imagemagick graphicsmagick-libmagick-dev-compat 
+
+
+9)tar -xzf rubygems-1.3.7.tgz
+
+10)cd rubygems-1.3.7   
+
+11)sudo ruby setup.rb                     pghit!@#!  7760200193
+
+12)sudo ln -s /usr/bin/gem1.8 /usr/bin/gem
+
+13)rvmsudo gem install rails -v=2.2.2 --no-rdoc --no-ri
+
+14)sudo gem install attr_encrypted calendar_date_select cgi_multipart_eof_fix columnize daemon_controller daemons diff-lcs eigenclass encryptor eventmachine fastercsv fastthread gem_plugin has_finder hoe linecache mocha mongrel mongrel_cluster mongrel_proctitle parseexcel postgres rack rake rbx-require-relative ruby-debug ruby-debug-base ruby-ole rubyforge rufus-scheduler spreadsheet spreadsheet-excel tzinfo --no-rdoc --no-ri 
+
+15)sudo gem install will_paginate -v=2.3.11 --no-rdoc --no-ri
+
+10)wget http://rubyforge.vm.bytemark.co.uk/gems/gbarcode-0.98.16.gem
+               or
+10)wget https://rubygems.org/gems/gbarcode/versions/0.98.16
+
+wget http://rubygems.org/gems/gbarcode-0.98.16.gem
+
+11)wget http://rubyforge.vm.bytemark.co.uk/gems/rmagick-2.13.1.gem
+                or
+11)wget https://rubygems.org/gems/rmagick/versions/2.13.1
+
+12)sudo gem install gbarcode-0.98.16.gem --no-rdoc --no-ri
+
+13)sudo gem install rmagick-2.13.1.gem --no-rdoc --no-ri
+
+14)sudo gem install hoe -v=2.9.4 
+
+RVM Installation
+---------------
+
+16)rvm install 1.9.2
+
+17) rvmsudo gem update --system 1.8.25
+
+18)rvm --default use system
+
+19)rvm use 1.9.2
+
+20)rvmsudo gem install bundler -v=1.0.21 --no-rdoc --no-ri
+
+21)rvmsudo bundle install
+
+22)gem list -d bundler
+
+23)rvm 1.9.2-p320@global do gem uninstall bundler
+
+
+rvmsudo gem install mysql -- --with-mysql-config=/usr/bin/mysql_config
+
+
+
+
+
+
+
+
+
+
+
+
+
+sudo apt-get update
+
+sudo apt-get install curl git software-properties-common
+
+sudo apt-get install gawk g++ gcc make libc6-dev libreadline6-dev
+zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 autoconf
+libgdbm-dev libncurses5-dev automake libtool bison pkg-config libffi-dev
+
+curl -sSL https://get.rvm.io | bash -s stable
+
+command curl -sSL https://rvm.io/mpapis.asc | gpg --import - && !!
+
+
+source ~/.rvm/scripts/rvm
+
+type rvm | head -n 1
+
+rvm is a function
+
+rvm install ruby-2.2.2
+
+rvm use 2.1.5 --default
+
+ruby --version && which ruby
+
+sudo gem install bundler
+
+sudo gem install rails
+
+sudo apt-get install mysql-server mysql-client libmysqlclient-dev libmysqld-dev
+
+sudo apt-get install postgresql libpq5 libpq-dev
+
+sudo gem install pg
+
+sudo gem install mysql
+
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+
+rails new blog
+
+
+INSTALLATION OF ROR IN CENTOS :
+
+      1. sudo yum install ruby-devel postgresql-devel gcc-c++ readline-devel zlib-devel libyaml-devel libffi-devel openssl-devel autoconf automake libtool bison libxml2-devel libxslt-devel 
+
+      2. sudo yum install ruby libruby openssl imagemagick graphicsmagick-libmagick-dev-compat
+
+      3. wget http://rubyforge.org/frs/download.php/70696/rubygems-1.3.7.tgz
+
+      4. tar -xzf rubygems-1.3.7.tgz 
+
+      5. cd rubygems-1.3.7
+
+      6. sudo ruby setup.rb
+
+      7. sudo ln -s /usr/bin/gem1.8 /usr/bin/gem
+
+      8. sudo gem install rails -v=2.2.2 --no-rdoc --no-ri
+
+      9. sudo gem install  attr_encrypted calendar_date_select cgi_multipart_eof_fix  columnize daemon_controller daemons diff-lcs eigenclass encryptor eventmachine fastercsv fastthread gemplugin has_finder hoe  linecache  mocha mongrel mongrel_cluster mongrel_proctitle  parseexcel postgres rack rake rbx-require-relative ruby-debug ruby-debug-base ruby-ole rubyforge rufus-scheduler spreadsheet spreadsheet-excel  tzinfo --no-rdoc --no-ri 
+
+    10. sudo gem install will_paginate -v=2.3.11 --no-rdoc --no-ri
+
+     11. wget http://rubyforge.vm.bytemark.co.uk/gems/gbarcode-0.98.16.gem
+
+     12. wget http://rubyforge.vm.bytemark.co.uk/gems/rmagick-2.13.1.gem
+
+     13. sudo gem install gbarcode-0.98.16.gem --no-rdoc --no-ri
+
+     14. sudo gem install hoe -v=2.9.4 --no-rdoc --no-ri
+
+    
+  RVM INSTALLATION :
+
+      1. sudo yum update
+
+      2. sudo yum install curl git 
+   
+            \curl -sSL https://get.rvm.io | bash
+
+      3. bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
+
+      4. echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function' >> ~/.bash_profile 
+
+      5. source ~/.bash_profile
+
+      6. type rvm | head -1
+
+      7. rvm install 1.9.2  (or) rvm install 1.9.2-p320 
+
+      8. rvmsudo gem update --system 1.8.25
+          
+       9.   rvm --default use system
+ 
+            rvm 1.9.2
+
+      10.  rvmsudo gem install bundler -v=1.0.21 --no-rdoc --no-ri
+
+
+  SOLUTION FOR INSTALLING LIBYAML IN CENTOS :
+
+      1. curl -O http://www6.atomicorp.com/channels/atomic/centos/6/x86_64/RPMS/atomic-release-1.0-14.el6.art.noarch.rpm
+
+      2. sudo  rpm -Uvh atomic-release-1.0-14.el6.art.noarch.rpm 
+  
+      3. sudo yum install libyaml-devel
+     
+
+E0:2C:B2:D7:04:40
+
+
+
+
+
+laptop  2C:33:7A:FE:43:FB
+
+du -h --max-depth=1 / | grep '[0-9]G\>'
+
+
+
+
+
+PostgreSQL Installation
+-----------------------
+
+1)sudo chmod +x postgresql-9.0.4-1-linux-x64.bin
+
+2)sudo ./postgresql-9.0.4-1-linux-x64.bin
+
+postgres database -> Username: postgres
+                     Password: srishti
+
+charak database -> Name: charak
+		   Host: 192.168.1.36
+                   Port: 5433
+		   Username: paras
+                   Password: paras123!
+
+
+
+
+sudo -s
+
+
+infocmp -C > /etc/termcap
+
+
+
+createuser khader -U postgres
+
+#ALTER USER khader with password 'srishti';
+
+
+
+Aptana RadRails Installation
+-----------------------------
+
+sudo apt-get install openjdk-6-jdk
+
+http://subclipse.tigris.org/update_1.4.x
+ 
+
+1)sudo add-apt-repository ppa:ferramroberto/java
+
+2)sudo apt-get update
+
+3)sudo apt-get install sun-java6-jdk sun-java6-plugin
+
+4)wget -O xulrunner.deb http://launchpadlibrarian.net/70321329/xulrunner-1.9.2_1.9.2.17%2Bbuild3%2Bnobinonly-0ubuntu1_amd64.deb
+
+5)sudo dpkg -i xulrunner.deb
+
+6)tar -xzf Aptana\ RadRails.tar.gz
+
+Remote Host has been changed
+----------------------------
+mv .ssh/known_hosts .ssh/known_hosts_rmvd_thatdate
+
+Manually Install Oracle JDK 7
+--------------------------------------------------
+
+Copy this file jdk-7u51-linux-x64.tar.gz to home folder & follow mentioned commands
+
+1) sudo mkdir /usr/lib/jvm
+
+2) sudo mv jdk-7u51-linux-x64.tar.gz /usr/lib/jvm/
+
+3) cd /usr/lib/jvm
+
+4) sudo tar zxvf jdk-7u51-linux-x64.tar.gz 
+
+5) sudo ln -s -b /usr/lib/jvm/jdk1.7.0_51/jre/bin/java /etc/alternatives/java
+
+6) sudo ln -s -b /usr/lib/jvm/jdk1.7.0_51/jre/bin/java /usr/bin/java
+
+7) java -version
+
+export JAVA_HOME=/usr/lib/jvm/jdk1.7.0_51
+
+
+
+
+ant -diagnostics | grep home
+
+
+
+
+ERRORS
+------------------------------------
+no such file to loadd -- openssh (LoadError)
+
+1). cd ~/.rvm/src/ruby-1.9.2-head/ext/openssl
+
+2). and I type: ruby extconf.rb, I get the following:
+
+            === OpenSSL for Ruby configurator ===
+            === Checking for system dependent stuff... ===
+             checking for t_open() in -lnsl... no
+              checking for socket() in -lsocket... no
+              checking for assert.h... yes
+        === Checking for required stuff... ===
+            checking for openssl/ssl.h... no
+            === Checking for required stuff failed. ===
+         Makefile wasn't created. Fix the errors above.
+
+         make does not work, neither does make install followed right after it.
+
+
+3). ruby extconf.rb
+
+4). make
+
+5). make install
+																						
+undefined method `cache_template_extensions=' for ActionView::Base:Class (NoMethodError)
+-----------------------------------------------------------------------------------------------
+
+config/environments/development.rb or config/environment.rb:15
+
+
+commet it
+#config.action_view.cache_template_extensions         = false 
+
+
+
+
+/home/pavitra/.rvm/gems/ruby-1.9.2-head/gems/galetahub-simple_captcha-0.1.5/lib/simple_captcha/form_builder.rb:7:in `included': uninitialized constant SimpleCaptcha::FormBuilder::Sprockets (NameError)
+------------------------------------------------------------------------------------------
+
+sudo vim /home/pavitra/.rvm/gems/ruby-1.9.2-head/gems/galetahub-simple_captcha-0.1.5/lib/simple_captcha/form_builder.rb +7
+
+7 line
+8 line comment
+
+
+
+
+RVM 1.8.6-p420
+--------------------------------
+
+rvmsudo apt-get install  ruby ruby-full build-essential libruby ruby1.8-dev  libxslt1-dev libxml2-dev  zlib1g-dev libreadline6-dev openssl libssl-dev libpq-dev imagemagick graphicsmagick-libmagick-dev-compat
+
+rvmsudo gem install attr_encrypted calendar_date_select cgi_multipart_eof_fix columnize daemon_controller daemons diff-lcs eigenclass encryptor eventmachine fastercsv fastthread gem_plugin has_finder hoe linecache mocha mongrel mongrel_cluster mongrel_proctitle parseexcel postgres rack rake rbx-require-relative ruby-debug ruby-debug-base ruby-ole rubyforge rufus-scheduler spreadsheet spreadsheet-excel tzinfo --no-rdoc --no-ri
+
+rvmsudo gem install rake -v=0.8.7 --no-rdoc --no-ri
+
+rvmsudo gem install rails -v=2.2.2 --no-rdoc --no-ri
+
+rvmsudo gem install postgres-pr
+
+rvm 1.8.6-p420@global do gem uninstall executable-hooks
+
+rm -rf config/newrelic.yml
+
+rvmsudo gem install will_paginate -v=2.3.11 --no-rdoc --no-ri
+
+rvmsudo gem install parseexcel -v=0.5.2 --no-rdoc --no-ri
+
+rvmsudo gem install rufus-scheduler -v=1.0.11 --no-rdoc --no-ri
+
+rvmsudo gem install attr_encrypted -v=1.2.1 --no-rdoc --no-ri
+
+rvmsudo gem install spreadsheet-excel -v=0.3.5.1 --no-rdoc --no-ri
+
+
+vim config/environment.rb
+
+------------------------------------------------------------------------------------------------------
+
+pg 
+---
+rvmsudo gem install pg -v '0.12.2' -- --with-pg-lib=/usr/include/postgresql
+
+
+postgres
+---------------------------------------------------------
+
+
+error
+
+
+*** glibc detected *** /app/PostgreSQL/9.0/bin/psql: free(): invalid next size (fast): 0x0000000015b46b20 ***
+======= Backtrace: =========
+/lib64/libc.so.6[0x358167230f]
+/lib64/libc.so.6(cfree+0x4b)[0x358167276b]
+/app/PostgreSQL/9.0/bin/psql[0x4139b4]
+/app/PostgreSQL/9.0/bin/psql[0x414e44]
+/app/PostgreSQL/9.0/bin/psql[0x415a68]
+/app/PostgreSQL/9.0/bin/psql[0x408d82]
+/app/PostgreSQL/9.0/bin/psql[0x40d9d6]
+/app/PostgreSQL/9.0/bin/psql[0x40fa7e]
+/lib64/libc.so.6(__libc_start_main+0xf4)[0x358161d994]
+/app/PostgreSQL/9.0/bin/psql[0x403a69]
+======= Memory map: ========
+00400000-00456000 r-xp 00000000 fd:01 691534                             /app/PostgreSQL/9.0/bin/psql
+00655000-00656000 rw-p 00055000 fd:01 691534                             /app/PostgreSQL/9.0/bin/psql
+00656000-00657000 rw-p 00656000 00:00 0
+15b2e000-15b4f000 rw-p 15b2e000 00:00 0                                  [heap]
+3485e00000-3485e03000 r-xp 00000000 fd:01 693115                         /app/PostgreSQL/9.0/lib/libtermcap.so.2
+3485e03000-3486002000 ---p 00003000 fd:01 693115                         /app/PostgreSQL/9.0/lib/libtermcap.so.2
+3486002000-3486003000 rw-p 00002000 fd:01 693115                         /app/PostgreSQL/9.0/lib/libtermcap.so.2
+354e400000-354e402000 r-xp 00000000 fd:00 229449                         /lib64/libcom_err.so.2.1
+354e402000-354e601000 ---p 00002000 fd:00 229449                         /lib64/libcom_err.so.2.1
+354e601000-354e602000 rw-p 00001000 fd:00 229449                         /lib64/libcom_err.so.2.1
+3581200000-358121c000 r-xp 00000000 fd:00 229379                         /lib64/ld-2.5.so<http://ld-2.5.so>
+
+
+go to root user,
+
+
+1) sudo apt-get install libedit*
+
+2) cd /opt/PostgreSQL/9.0/lib/
+
+3) ls -l libedit*
+
+4) mv libedit.so libedit.so.bk
+
+5) ln -s /usr/lib64/libedit.so.0 /opt/PostgreSQL/9.0/lib/libedit.so
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sudo lshw -C disk
+
+
+
+Apache Installation
+-------------------
+Extract the httpd-2.2.16.tar.gz
+
+./configure --prefix=/usr/local/apache2 --enable-so --enable-deflate --enable-proxy --enable-proxy-connect --enable-proxy-http --enable-proxy-ajp --enable-proxy-balancer --enable-ssl --enable-unique-id --enable-usertrack --enable-vhost-alias --with-mpm=prefork --enable-static-ab --enable-rewrite --enable-lbmethod-bybusyness --enable-lbmethod-bytraffic --enable-lbmethod-byrequests
+
+sudo apt-get install apr*
+
+./configure --prefix=/usr/local/apache2
+
+make
+
+sudo make install
+
+cd /usr/local/apache2/bin
+
+cp apachectl /etc/init.d
+
+ps -ef | grep apache
+
+sudo /etc/init.d/apachectl start (or) stop (or) restart
+
+create sites-enabled sites-available
+
+copy .conf files to sites-availble and create symboloic link of .conf file in sites-enabled
+
+copy httpd.conf from qa
+
+
+
+
+Manually Install Oracle JDK 7
+-------------------------------------------------------------------------------------------
+Copy this file jdk-7u51-linux-x64.tar.gz to home folder & follow mentioned commands
+
+1) sudo mkdir /usr/lib/jvm
+
+2) sudo mv jdk-7u51-linux-x64.tar.gz /usr/lib/jvm/
+
+3) cd /usr/lib/jvm
+
+4) sudo tar zxvf jdk-7u51-linux-x64.tar.gz 
+
+5) sudo ln -s -b /usr/lib/jvm/jdk1.7.0_51/jre/bin/java /etc/alternatives/java
+
+6) sudo ln -s -b /usr/lib/jvm/jdk1.7.0_51/jre/bin/java /usr/bin/java
+
+7) java -version
+
+
+
+ 
+
+Installing KVM
+------------------------------------------------------------------------------------
+
+1). egrep -c ‘(svm|vmx)’ /proc/cpuinfo
+
+2). sudo apt-get install qemu-kvm libvirt-bin bridge-utils virt-manager
+
+3). sudo adduser khader libvirtd
+
+4). virsh -c qemu:///system list
+
+
+Create a virtual machine (vm) using a graphical user interface (gui)
+------------------------------------------------------------------------------
+
+5). Go to Dash and type Virtual machine
+
+
+
+Creating Virtual Machines
+-----------------------------------------------------------------
+
+Create the script via Putty as follows:
+
+    I've written a starter script already so highlight the whole script here, right click and select Copy.
+                                                          
+    Using Putty navigate into the folder where you're going to store the script.
+    For example type cd /home/xxx/MyScripts where xxx is your username.
+
+    Next type vim MyVMBuilder.sh (or your preferred script name) and press Enter. This will open a new file for editing.
+
+    Then press the [Insert] key once and add a couple of blank lines by pressing the [Enter] key. Next right click and the whole script will be pasted into the file.
+
+    Then press the [Esc] key once and type :wq to save and quit out of the script. If you make a mistake then issue :q! instead of :wq to abort your changes.
+
+    Don't forget to make the script executable: chmod a+x MyVMBuilder.sh
+
+As explained in the script itself you should change a few of the arguments to suit your environment. Once you're happy you execute the script as follows:
+
+
+6). sudo ./MyVMBuilder.sh
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+NOTE:  home/khader/MyScripts$ vim MyVMBuilder.sh
+
+
+# PURPOSE: Simple script to create a virtual machine (VM) on Ubuntu Server. MUST BE RUN AS ROOT
+#
+# AUTHOR: feedback[AT]HaveTheKnowHow[DOT]com
+#
+# NOTE: For an explanation of each of the arguments issue the following at a command prompt
+#       and then change the arguments to suit your environment: vmbuilder kvm ubuntu --help
+#
+# IMPORTANT:
+#	Once you have successfully built a VM using this script you MUST change the following arguments in the command below 
+#	BEFORE creating another VM
+#
+#	--ip=192.168.1.201 \
+#	--hostname MediaServer \
+
+# NOTE: The script assigns a fixed IP address to your VM. If you want to get an IP address via DHCP then omit the following 
+#       arguments from the command below.
+#	--ip=192.168.1.201 \
+#	--mask=255.255.255.0 \
+#	--bcast=192.168.1.255 \
+#	--gw=192.168.1.254 \
+#
+# IMPORTANT: If you want to assign a fixed ip address to your VM then you must obviously substitute your own network 
+#            details in the --ip, --mask, --bcast and --gw arguments below
+#
+# Substitue the "/home/htkh/VirtualMachines" string for where you'd like your VMs to be created
+
+vmbuilder kvm ubuntu \
+	--dest=/home/htkh/VirtualMachines \
+	--overwrite \
+	--mem=1024 \
+	--cpus=1 \
+	--rootsize=7168 \
+	--swapsize=1024 \
+	--ip=192.168.1.201 \
+	--mask=255.255.255.0 \
+	--bcast=192.168.1.255 \
+	--gw=192.168.1.254 \
+	--addpkg=openssh-server \
+	--addpkg=vim \
+	--addpkg=cron \
+	--addpkg=acpid \
+	--arch=amd64 \
+	--suite=lucid \
+	--flavour virtual \
+	--components main,universe,restricted \
+	--hostname MediaServer \
+	--user htkh \
+	--pass mypassword \
+	--libvirt qemu:///system \
+	--bridge=br0 ;
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+So, to start the machine you've called UbuntuServer issue the following command:
+
+7). virsh --connect qemu:///system start UbuntuServer
+
+to stop it then use shutdown instead of start in the above command. However, by default you cannot shut down an Ubuntu guest gracefully.
+
+How to shut down an Ubuntu guest gracefully.
+
+
+8). sudo apt-get install acpid
+
+
+
+
+
+                  That's it.
+
+
+
+
+
+
+
+HowTo: 10 Steps to Configure tftpboot Server in UNIX / Linux (For installing Linux from Network using PXE)
+----------------------------------------------------------------------------------------------------------------
+
+by Khader Valli on July 22, 2010
+
+In this article, let us discuss about how to setup tftpboot, including installation of necessary packages, and tftpboot configurations.
+
+TFTP boot service is primarily used to perform OS installation on a remote machine for which you don’t have the physical access. In order to perform the OS installation successfully, there should be a way to reboot the remote server — either using wakeonlan or someone manually rebooting it or some other ways.
+
+In those scenarios, you can setup the tftpboot services accordingly and the OS installation can be done remotely (you need to have the autoyast configuration file to automate the OS installation steps).
+
+Step by step procedure is presented in this article for the SLES10-SP3 in 64bit architecture. However, these steps are pretty much similar to any other Linux distributions.
+Required Packages
+
+The following packages needs to be installed for the tftpboot setup.
+
+    dhcp services packages: dhcp-3.0.7-7.5.20.x86_64.rpm and dhcp-server-3.0.7-7.5.20.x86_64.rpm
+    tftpboot package: tftp-0.48-1.6.x86_64.rpm
+    pxeboot package: syslinux-3.11-20.14.26.x86_64.rpm
+
+Package Installation
+
+Install the packages for the dhcp server services:
+
+$ rpm -ivh dhcp-3.0.7-7.5.20.x86_64.rpm
+Preparing...                ########################################### [100%]
+   1:dhcp                   ########################################### [100%]
+
+$ rpm -ivh dhcp-server-3.0.7-7.5.20.x86_64.rpm
+Preparing...                ########################################### [100%]
+   1:dhcp                   ########################################### [100%]
+
+$ rpm -ivh tftp-0.48-1.6.x86_64.rpm
+
+$ rpm -ivh syslinux-3.11-20.14.26.x86_64.rpm
+
+After installing the syslinux package, pxelinux.0 file will be created under /usr/share/pxelinux/ directory. This is required to load install kernel and initrd images on the client machine.
+
+Verify that the packages are successfully installed.
+
+$ rpm -qa | grep dhcp
+$ rpm -qa | grep tftp
+
+Download the appropriate tftpserver from the repository of your respective Linux distribution.
+
+-----------------------------------------
+Steps to setup tftpboot
+------------------------------------------
+
+
+Step 1: Create /tftpboot directory
+-------------------------------------
+Create the tftpboot directory under root directory ( / ) as shown below.
+
+# mkdir /tftpboot/
+
+Step 2: Copy the pxelinux image
+---------------------------------------------
+PXE Linux image will be available once you installed the syslinux package. Copy this to /tftpboot path as shown below.
+
+# cp /usr/share/syslinux/pxelinux.0 /tftpboot
+
+Step 3: Create the mount point for ISO and mount the ISO image
+--------------------------------------------------------------------------
+Let us assume that we are going to install the SLES10 SP3 Linux distribution on a remote server. If you have the SUSE10-SP3 DVD insert it in the drive or mount the ISO image which you have. Here, the iso image has been mounted as follows:
+
+# mkdir /tftpboot/sles10_sp3
+
+# mount -o loop SLES-10-SP3-DVD-x86_64.iso /tftpboot/sles10_sp3
+
+Refer to our earlier article on How to mount and view ISO files.
+
+Step 4: Copy the vmlinuz and initrd images into /tftpboot
+-------------------------------------------------------------------------
+Copy the initrd to the tftpboot directory as shown below.
+
+# cd /tftpboot/sles10_sp3/boot/x86_64/loader
+
+# cp initrd linux /tftpboot/
+
+Step 5: Create pxelinux.cfg Directory
+---------------------------------------------------
+Create the directory pxelinux.cfg under /tftpboot and define the pxe boot definitions for the client.
+
+# mkdir /tftpboot/pxelinux.cfg
+
+# cat >/tftpboot/pxelinux.cfg/default
+default linux
+label linux
+kernel linux
+append initrd=initrd showopts instmode=nfs install=nfs://192.168.1.101/tftpboot/sles10_sp3/
+
+The following options are used for,
+
+    kernel – specifies where to find the Linux install kernel on the TFTP server.
+    install – specifies boot arguments to pass to the install kernel.
+
+As per the entries above, the nfs install mode is used for serving install RPMs and configuration files. So, have the nfs setup in this machine with the /tftpboot directory in the exported list. You can add the “autoyast” option with the autoyast configuration file to automate the OS installation steps otherwise you need to do run through the installation steps manually.
+
+Step 6: Change the owner and permission for /tftpboot directory
+----------------------------------------------------------------------------------------
+Assign nobody:nobody to /tftpboot directory.
+
+# chown nobody:nobody /tftpboot
+
+# chmod 777 /tftpboot
+
+Step 7: Modify /etc/dhcpd.conf
+---------------------------------------------------------------------
+Modify the /etc/dhcpd.conf as shown below.
+
+# cat /etc/dhcpd.conf
+
+ddns-update-style none;
+default-lease-time 14400;
+filename "pxelinux.0"; 
+
+# IP address of the dhcp server nothing but this machine.
+next-server 192.168.1.101;
+subnet 192.168.1.0 netmask 255.255.255.0 {
+  # ip distribution range between 192.168.1.1 to 192.168.1.100
+  range 192.168.1.1 192.168.1.100;
+  default-lease-time 10;
+  max-lease-time 10;
+}
+
+Specify the interface in /etc/syslinux/dhcpd to listen dhcp requests coming from clients.
+
+# cat /etc/syslinux/dhcpd | grep DHCPD_INTERFACE
+DHCPD_INTERFACE=”eth1”;
+
+Here, this machine has the ip address of 192.168.1.101 on the eth1 device. So, specify eth1 for the DHCPD_INTERFACE as shown above.
+
+On a related note, refer to our earlier article about 7 examples to configure network interface using ifconfig.
+
+Step 8: Modify /etc/xinetd.d/tftp
+---------------------------------------------------------
+Modify the /etc/xinetd.d/tftp file to reflect the following. By default the value for disable parameter is “yes”, please make sure you modify it to “no” and you need to change the server_args entry to -s /tftpboot.
+
+# cat /etc/xinetd.d/tftp
+	service tftp {
+                       socket_type     = dgram
+                       protocol          = udp
+                       wait               = yes
+                       user               = root
+                       server            = /usr/sbin/in.tftpd
+                       server_args     = -s /tftpboot
+                       disable           = no
+            }
+
+Step 9: No changes in /etc/xinetd.conf
+----------------------------------------------------------------------
+There is no need to modify the etc/xinetd.conf file. Use the default values specified in the xinetd.conf file.
+
+Step 10: Restart xinetd, dhcpd and nfs services
+---------------------------------------------------------------
+Restart these services as shown below.
+
+# /etc/init.d/xinetd restart
+
+# /etc/init.d/dhcpd restart
+
+# /etc/init.d/nfsserver restart
+
+After restarting the nfs services, you can view the exported directory list(/tftpboot) by the following command,
+
+# showmount -e
+
+Finally, the tftpboot setup is ready and now the client machine can be booted after changing the first boot device as “network” in the BIOS settings.
+
+If you encounter any tftp error, you can do the troubleshooting by retrieving some files through tftpd service.
+
+Retrieve some file from the tftpserver to make sure tftp service is working properly using the tftp client. Let us that assume that sample.txt file is present under /tftpboot directory.
+
+ $ tftp -v 192.168.1.101 -c get sample.txt
+
+
+
+
+#####################################################################################
+
+
+vi /etc/yum.repos.d/localrepo.repo
+
+
+[local]
+name=Local Repository
+baseurl=file:///path for iso folder/home/paras_live/projects/dhrc/dhrc_erps/current
+gpgcheck=0
+enabled=1
+
+
+
+createrepo -v path for iso folder
+
+yum repolist all
+
+yum update
+
+yum install yum-plugin-downloadonly
+
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+How to install Samba server on Ubuntu 12.04
+---------------------------------------------------------------------------------------
+
+1). sudo apt-get install samba samba-common
+
+2). smbd --version
+
+3). sudo apt-get install python-glade2 system-config-samba
+
+Go to your Windows machine and use this command in order to check the WORKGROUP name:
+
+4). net config workstation
+
+workstation domain        WORKGROUP
+
+Backup the smb.conf file, then delete it and create the new one:
+
+5). sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.bak 
+
+6). sudo rm /etc/samba/smb.conf 
+
+7). sudo touch /etc/samba/smb.conf 
+
+8). sudo nano /etc/samba/smb.conf
+
+Add this, in your smb.conf file (or change it according to your requirement):
+
+#======================= Global Settings ===================================== 
+[global]
+workgroup = WORKGROUP
+server string = Samba Server %v
+netbios name = ubuntu
+security = user
+map to guest = bad user
+dns proxy = no
+#============================ Share Definitions ============================== 
+[MyShare]
+path = /samba/share 
+browsable =yes
+writable = yes
+guest ok = yes
+read only = no
+
+9). sudo service smbd restart
+
+Access the samba share from windows (where ubuntu is the name of my samba server):
+
+run  ====> \\192.168.133.31wao, 
+
+we are able to access the samba share successfully
+
+10). mkdir /samba/share/
+     mkdir /samba/secure/
+11). cd /samba/
+
+12). ls -l
+
+13). sudo chmod -R 0777 share
+
+
+
+Part 2: Add and manage users and groups
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Add a group in your ubuntu server (in my case smbgrp):
+
+14). sudo addgroup smbgrp
+
+Create a new share, set the permission on the share ,add the user to the samba group and create samba password:
+
+
+15). sudo chown -R khader:smbgrp secure/ 
+
+ls -l
+
+16). sudo chmod -R 0770 secure/
+
+17). sudo adduser khader smbgrp
+
+18). sudo smbpasswd -a khader
+
+khaderd
+
+Add the newly created samba share in smb.conf file:
+
+19). sudo vim /etc/samba/smb.conf
+
+
+[secure]
+ path = /samba/secure
+ valid users = @smbgrp
+ guest ok = no
+ writable = yes
+ browsable = yes
+
+20). sudo service smbd restart 
+
+21). sudo testparm
+
+
+go to windows and check.
+
+
+That's it.
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+
+
+sqldeveloper installation in 12.04
+-----------------------------------------------------------------------------------------------------------------
+
+download the sqldeveloper.tgz in home directory
+
+
+1). mv sqldeveloper/ /opt/
+
+2). sudo chmod +x /opt/sqldeveloper/sqldeveloper.sh
+
+
+3). sudo ln -s /opt/sqldeveloper/sqldevelope/home/paras_live/projects/dhrc/dhrc_erps/currentr.sh /usr/local/bin/sqldeveloper
+
+
+4). vi /opt/sqldeveloper/sqldeveloper.sh
+          add the below content
+
+cd /opt/sqldeveloper/sqldeveloper/bin
+./sqldeveloper "$@"
+cd /opt/sqldeveloper/sqldeveloper/bin && bash sqldeveloper $*
+
+
+
+5). sudo vi /opt/sqldeveloper/sqldeveloper/bin/sqldeveloper.conf
+    
+            add the below content
+
+              SetSkipJ2SDKCheck true
+
+
+6). sqldeveloper
+
+
+
+
+*******************************************************************************
+
+
+
+
+
+###################################################################################
+Install lamp with 1 command in Ubuntu 12.10, 13.04 Raring Ringtail & LinuxMint13
+#########################################################################################
+
+
+
+sudo apt-get install tasksel
+
+sudo  tasksel
+
+sudo vi /var/www/info.php
+
+##############  add this code
+
+<?php
+phpinfo();
+?>   
+
+######
+
+
+sudo /etc/init.d/apache2 restart
+
+http://localhost/info.php
+
+sudo  apt-get  install  phpmyadmin
+
+http://localhost/phpmyadmin
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+http://www.krizna.com/ubuntu/setup-svn-server-on-ubuntu-14-04/
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+How to setup SVN server on ubuntu 14.04
+
+sudo apt-get update
+
+sudo apt-get install subversion apache2 libapache2-svn apache2-utils
+
+
+sudo mkdir -p /svn/repos/
+
+
+sudo svnadmin create /svn/repos/testrepo
+
+sudo chown -R www-data:www-data /svn/repos/testrepo
+
+
+sudo vi /etc/apache2/sites-available/testrepo.conf
+
+############add code
+
+<Location /svn>
+  DAV svn
+  SVNParentPath /svn/repos/
+  AuthType Basic
+  AuthName "Test Repo"
+  AuthUserFile /etc/svnpasswd
+  Require valid-user
+</Location>
+
+#################
+
+sudo /etc/init.d/apache2 restart
+
+or
+
+sudo service apache2 reload
+
+
+#####/etc/svnpasswd
+
+
+sudo htpasswd -cm /etc/svnpasswd user1
+
+
+sudo htpasswd -m /etc/svnpasswd user2
+
+
+http://localhost/svn/testrepo
+
+
+
+     that is it
+
+
+########################################################################################################
+http://www.krizna.com/ubuntu/install-svn-ubuntu-12-04/
+######################################################################################################
+
+
+svn
+
+
+sudo apt-get install apache2
+
+vi /etc/apache2/httpd.conf
+
+      add ---->   ServerName localhost
+
+sudo /etc/init.d/apache2 restart
+
+
+http://10.0.2.15
+
+Install and configure SVN
+------------------------
+
+sudo apt-get install subversion libapache2-svn
+
+sudo mkdir /svn
+
+create a repository test using the below command
+------
+sudo svnadmin create /svn/test
+
+sudo chown -R www-data:www-data /svn/test
+
+sudo htpasswd -c /etc/subversion/test.users khader
+
+Create file ---->  vi /etc/apache2/conf.d/svn.conf 
+
+<location /repos>
+DAV svn
+# SVN path
+SVNParentPath /svn/
+AuthType Basic
+AuthName "Authorization Realm"
+#password file path
+AuthUserFile /etc/subversion/test.users
+Require valid-user
+</location>
+
+
+
+ sudo /etc/init.d/apache2 restart
+
+browser   ---->  http://10.0.2.15/repos/test 
+
+mkdir svntest
+
+
+svn co http://krizna@10.0.2.15/repos/test svntest/
+
+cd svntest/
+
+touch test1.txt
+
+touch test2.txt
+
+svn add test1.txt test2.txt
+
+svn commit -m "small project"
+
+
+
+
+
+
+
+
+
+svnadmin dump sourcepath/repo > nameofbackup.dump
+
+svnadmin create newrepo 
+
+svnadmin load newrepo < nameofbackup.dump
+
+
+
+
+
+
+svnadmin dump sourcepath/repo -r 21 --incremental > full.dump
+
+
+
+svn log -v --xml -r 30:HEAD
+
+svn log -v --xml --stop-on-copy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***************************************************************************************
+http://www.tecmint.com/install-joomla-in-linux/
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Install Joomla 3.4.3 Using LAMP (Linux, Apache, MySQL, PHP) on RHEL, CentOS & Fedora
+
+
+
+wget http://joomlacode.org/gf/download/frsrelease/20086/162539/Joomla_3.4.3-Stable-Full_Package.tar.gz
+
+cp Joomla_3.4.3-Stable-Full_Package.tar.gz /var/www/html/.
+
+cd /var/www/html
+
+tar -zxvf Joomla_3.4.3-Stable-Full_Package.tar.gz
+####mysqladmin -u root password 'redhat'
+
+mysql -u root -p
+
+create database joomla;
+
+grant all on joomla.* to joomla@'localhost' identified by 'redhat';
+
+flush privileges;
+
+
+http://localhost/installation/index.php
+
+
+
+
+8888888888888888888888888888888888888888888888888888888888888888888888888
+                               MYSQL
+9999999999999999999999999999999999999999999999999999999999999999999999999999
+
+sudo /etc/init.d/mysql stop
+
+sudo mysqld_safe --skip-grant-tables &
+
+ctrl+c
+
+mysql -uroot
+
+use mysql;
+
+update user set password=PASSWORD("YOURPASSWORDHERE") where User='root';
+
+flush privileges;
+
+quit
+
+sudo /etc/init.d/mysql stop
+sudo /etc/init.d/mysql start
+
+mysql -u root -p
+
+
+
+
+# mysql -u root -p
+mysql> CREATE USER 'username'@'1.2.3.4' IDENTIFIED BY 'password';
+    -> GRANT ALL PRIVILEGES ON *.* TO 'username'@'1.2.3.4' WITH GRANT OPTION;
+    -> \q
+
+
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'203.123.190.54' IDENTIFIED BY 'srishti' WITH GRANT OPTION;
+
+
+20100525
+
+
+update user set password=PASSWORD("srishti") where User='root';
+
+
+ flush privileges;
+
+quit
+
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+PACSONE
+
+#######################################################################SS
+
+
+
+Will This Be a [N]ew Installation or [U]pgrade?
+Please Enter [N] or [U] => n
+
+Please Enter Application Entity Title for PacsOne Server Premium Edition: =>pacs
+
+Please Enter Server Port Number for PacsOne Server Premium Edition: =>1234
+
+Please Enter Database Hostname for PacsOne Server Premium Edition: (localhost) =>
+
+Please Enter Database Name for PacsOne Server Premium Edition: =>hospital
+
+Please Enter Username for PacsOne Server Premium Edition: =>admin
+
+Please Enter User Password for PacsOne Server Premium Edition: (Not Echoed for Security) =>
+
+Use Default Database Client Connection Settings Below ?
+(TCP Port = [3306], Socket = [/var/lib/mysql/mysql.sock])
+Please Type [Y]es, [N]o or ENTER to Use Default => n
+
+Please Enter Database Client TCP Port Number [3306]: =>
+
+Please Enter Database Client Socket [/var/lib/mysql/mysql.sock]: =>/var/run/mysqld/mysqld.sock
+
+Please Enter Logfile Directory for PacsOne Server Premium Edition: [/var/www/pacsone/log]
+Press ENTER if default value is OK =>
+
+Please Enter Default Archive Directory for PacsOne Server Premium Edition: [/var/pacsone/]
+Press ENTER if default value is OK =>
+
+Please Enter Storage Format: Dicom Part 10[X] or [N]ative
+Please Enter [X] or [N] => x
+
+Enable HL-7 Message Listner Option?
+Please Enter [Y] or [N] => y
+
+Please Enter TCP Port Number for HL-7 Message Listener (Default 7777): =>7777
+
+Please Enter Purge Interval for Received HL-7 Messages (Default 90 days): =>90
+
+*******************************************************************
+Setup will delete any existing tables in database 'hospital'
+before creating new tables
+
+Press OK to confirm or CANCEL to abort.
+*******************************************************************
+	[O]K 	[C]ANCEL  =>o
+
+*******************************************************************
+Database 'hospital' and/or Username 'admin' does not appear to be valid
+
+Would you like to set it up?
+*******************************************************************
+	[Y]ES 	[N]O  =>y
+
+Please Enter Database Password for Administrator [root]: =>
+*******************************************************************
+Installation successful!
+*******************************************************************
+	[O]K  =>o
+PacsOne Server Installation Complete.
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:/var/www/pacsone# cd
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:~# cd /etc/a
+acpi/         alternatives/ apache2/      apm/          apparmor/     apparmor.d/   apport/       apt/          at-spi2/      avahi/        
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:~# cd /etc/apache2/
+conf.d/          mods-available/  mods-enabled/    sites-available/ sites-enabled/   
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:~# cd /etc/apache2/sites-
+sites-available/ sites-enabled/   
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:~# sudo vim /etc/apache2/sites-available/paraspacs
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:~# sudo a2ensite paraspacs
+Enabling site paraspacs.
+To activate the new configuration, you need to run:
+  service apache2 reload
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:~# sudo /etc/init.d/apache2 reload
+ * Reloading web server config apache2                                                                                                                                   apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1 for ServerName
+                                                                                                                                                                  [ OK ]
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:~# sudo vim /etc/apache2/sites-available/paraspacs
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:~# sudo /etc/init.d/apache2 reload
+ * Reloading web server config apache2                                                                                                                                   apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1 for ServerName
+                                                                                                                                                                  [ OK ]
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:~# sudo /etc/init.d/apache2 reload
+ * Reloading web server config apache2                                                                                                                                   apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1 for ServerName
+                                                                                                                                                                  [ OK ]
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:~# sudo updatedb
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:~# locate 20090626
+/usr/lib/php5/20090626
+/usr/lib/php5/20090626/mysql.so
+/usr/lib/php5/20090626/mysqli.so
+/usr/lib/php5/20090626/pdo.so
+/usr/lib/php5/20090626/pdo_mysql.so
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:~# sudo cp ImageMagick/php5.3/imagick.so /usr/lib/php5/20090626
+cp: cannot stat `ImageMagick/php5.3/imagick.so': No such file or directory
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:~# cd /var/www/pacsone/
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:/var/www/pacsone# ls
+cd                 dvd          import                      license.dat  OpenJPEG                           pacsone.base    pacsone.service.base  Setup.exe
+CharLS             export       install.sh                  license.txt  pacs.ini                           PacsOne.exe     PacsOneSrv.exe        uninstall.sh
+Compress.Database  ffmpeg       libmysqlclient_r.so.15.0.0  log          pacsone                            PacsOneHL7.exe  php
+conformance.txt    ImageMagick  libmysqlclient.so.15.0.0    mysql        pacsone-6.5.3-Linux-x86_64.tar.gz  pacsone.pid     readme.txt
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:/var/www/pacsone# sudo cp ImageMagick/php5.3/imagick.so /usr/lib/php5/20090626
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:/var/www/pacsone# sudo vim /etc/php5/apache2/php.ini
+root@admin1-Invalid-entry-length-0-DMI-table-is-broken-Stop:/var/www/pacsone# sudo /etc/init.d/apache2 reload
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+88888888888888888888888888888888***********************************************************************************
+http://ant.apache.org/manual/index.html
+
+sudo tar -zxvf apache-maven-3.3.9-bin.tar.gz
+
+
+then move that directory to the specific location,
+
+1
+	
+$  sudo mv apache-maven-3.3.9 /usr/local/.
+
+
+Set the path Edit a file  ~/.profile or /etc/profile  and add these four lines:    
+ 
+export M2_HOME=/usr/local/apache-maven-3.3.9
+
+export M2=$M2_HOME/bin
+
+export MAVEN_OPTS="-Xms256m -Xmx512m"
+
+export PATH=$M2:$PATH
+
+1
+2
+3
+4
+5
+	
+$ sudo  source ~/.profile
+ 
+$ sudo source /etc/profile
+  
+
+
+*******************************************************************
+password reset 
+**************************************************************************
+mount -rw -o remount /
+
+
+
+root@ubuntu:~# passwd jorge
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+root@ubuntu:~#
+
+ passwd -d khader
+ passwd -S khader
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+              SSH   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      
+      with out password login to oneserver to  another server
+
+
+command
+
+   ssh-keygen -t rsa
+   ssh-keygen -t dsa
+
+
+open below file and copy id_rsa.pub contant
+
+vi authorized_key
+
+  chmod 644 authorized_key
+
+  chmod 700 .ssh
+
+
+
+
+
+
+
+========================================================================
+
+
+
+CFS TAG 
+
+http://svnnew.srishti/svn/HC/Paras/trunk/Paras5/trunk/core/tags/5.0.6.Test8/src/Paras/
+
+
+http://svnnew.srishti/svn/HC/Paras/branches/Paras4/China_CIMS/Tags/5.0.1.Test28/
+
+
+
+
+srishti email
+888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+
+vallidskb@gmail.com
+
+valli,application@gmail.com	new
+
+dvalli.khader@gmail.com	   spare
+
+
+
+
+900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+NAGIOS INSTALLATION 
+888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+
+------------------------------------------------------------
+http://www.tecmint.com/install-nagios-in-linux/
+
+
+any issue solution
+
+chcon -R -t httpd_sys_content_t/usr/local/nagios
+--------------------------------------------------------
+
+
+http://www.tecmint.com/how-to-add-linux-host-to-nagios-monitoring-server/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+./configure --with-ssl=/usr/bin/openssl --with-ssl-lib=/usr/lib/x86_64-linux-gnu
+
+apt-get install xinetd
+
+
+
+
+
+----------------------------------------------------------------------
+GIT HUB push the code
+-------------------------------------------------------------------------------------
+
+
+
+https://github.com
+
+create account on that
+
+username : dskb
+password : ******
+emailid : khader107@gmail.com
+
+create folder 
+
+mkdir gitproject
+
+cd gitproject
+
+
+1) git init
+
+2) git add README.md
+
+3) git config --global user.email "khader107@gmail.com"
+
+4) git config --global user.name "dskb"
+
+5) git commit -m "Add README.md"
+
+6) git remote add origin https://github.com/dskb/movies.git
+
+7) git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git rm first.txt
+
+git commit -m "deleting file "
+
+git mv second.txt love/putty.txt
+
+git commit -m "moving another folder"
+
+
+
+
+
+
+
+if u modified the content on the file that back to previous stage
+
+git checkout -- filename.txt
+
+git commit -m "this is massage"
+
+git checkout commitid -- filename.txt
+
+git commit -m "this is massage"
+
+
+
+
+
+
+
+
+
+
+if the file is staging area to working area to give below commands
+
+git reset HEAD filename.txt
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------
+
+                                         DOCKER--------------------------NEW---------------------
+
+---------------------------------------------------
+1  sudo apt-get -y install curl git
+
+2  sudo apt-get install apparmor lxc cgroup-lite
+
+3  sudo apt-get  install docker.io
+
+    compose
+
+4  sudo apt-get -y install python-pip
+
+5  sudo pip install -y docker-compose
+
+      pip uninstall docker-compose
+
+                          docker build -t web .
+
+    machine
+
+6  sudo wget https://github.com/docker/machine/releases/download/v0.6.0/docker-machine-$(uname -s)-$(uname -m)
+
+7  mv docker-machine-Linux-x86_64 docker-machine
+
+8  chmod +x docker-machine
+
+9  sudo mv docker-machine /usr/local/bin
+
+        docker-machine version
+
+
+
+
+     
+
+
+
+sudo docker rm containername
+
+
+
+for all running containers
+
+sudo docker rm $(sudo docker ps -a -q)
+
+sudo docker ps -aq | wc -l
+
+
+for all images
+
+sudo docker rmi $(sudo docker images -q | tail -n +4)
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+DOCKER CREATING
+----------------------------
+
+
+ubuntu installation
+-------------------
+
+sudo apt-get -y install curl
+
+curl -sSL https://get.docker.com/ | sh
+
+sudo usermod -aG docker <username>
+
+sudo docker search ubuntu
+
+sudo docker pull ubuntu
+
+----------------
+restart docker
+-----------------
+sudo service docker restart
+
+
+sudo docker images
+
+sudo docker ps -a
+
+sudo docker info
+
+sudo docker login
+
+sudo docker run -t -i ubuntu /bin/bash
+	
+sudo docker commit -a "valli" -m "updating" 8e5d7076345d(continerid) rvm/cent(imagename)
+
+sudo docker cp -r rubygems-1.3.7 8e5d7076345d:/
+
+sudo docker commit 8e5d7076345d dskb/test:latest
+
+sudo docker tag 43bba214351e(imageid) dskb/test:latest
+
+sudo docker login --username=dskb --email=vallidskb@gmail.com
+
+sudo docker push dskb/test
+
+docker tag <existing-image> <hub-user>/<repo-name>[:<tag>]
+
+docker commit <exiting-container> <hub-user>/<repo-name>[:<tag>]
+
+docker push <hub-user>/<repo-name>:<tag>
+
+sudo docker inspect -f '{{.Name}} - {{.NetworkSettings.IPAddress }}' $(docker ps -aq)
+
+docker inspect containername | grep IPAddr
+
+
+docker ps -a -q | wc -l
+
+docker rename oldname/containerid newname
+
+docker events --since '1h'
+
+docker events --filter (images, container, volume, network, ) events=attach
+
+docker events --filter events=die --filter events=start
+
+
+
+docker exec -it containername /bin/bash
+
+
+
+
+
+remove all
+-------------
+docker rm `docker ps -aq`
+
+
+docker ps --filter "status=exited" | grep 'weeks ago' | awk '{print $1}' | xargs --no-run-if-empty docker rm
+
+
+
+docker rmi imagename or imageid
+
+docker rmi -f imagename or imageid
+
+
+
+
+--------------------------------------------------------------------------------------
+to connect localhost ports (-P) 0.0.0.0:32769->80/tcp, 0.0.0.0:32768->443/tcp 
+
+docker run -d --name=WebServer1 -P nginx:latest
+
+
+docker run -d -p 8080:80 --name=WebServer2 nginx:latest
+
+docker run -d -p 8080:80 --name=WebServer3 -v /mnt/data nginx:latest
+
+
+
+
+
+SHARE THE DIRCOTORY
+
+
+docker run -d -p 8080:80 --name=WebServer4 -v /home/chefnode2:/usr/share/nginx/html  nginx:latest
+
+
+
+
+
+
+
+docker attach WebServer
+
+
+
+take tar files on containers 
+----------------------------------------------------------
+
+             -o 
+docker save --output  centos.latest.tar centos:latest
+
+tar tvf centos.latest.tar
+
+docker rmi centos:latest
+
+gzip centos.latest.tar
+
+centos.latest.tar.gz
+
+docker load --input centos.latest.tar.gz
+docker load < centos:latest.tar
+
+
+
+-------------------------------------
+docker history --no-trunc centos > output.txt
+
+
+cat output.txt
+
+docker history --quiet --no-trunc centos
+
+
+----------------------------
+
+
+docker tag imgageid mine/centos:v1.0
+
+
+
+
+
+
+network 
+---------
+
+docker network create --subnet 192.168.0.0/16 --gateway 192.168.1.200 --ip-range=192.168.6.0/24 --drive=bridge --lable=host4network mybridge
+
+docker run -it --name nettest --net mybridge centos:latest /bin/bash
+
+docker network ls
+
+docker network rm mybridge
+
+
+
+docker stats containername 
+
+
+docker logs containername
+
+docker run -it -m 500MB 
+
+docker run -it --cpu-shares 512 ubuntu /bin/bash
+
+docker update --help 
+
+docker update -m 256M containername
+
+
+
+
+
+
+local git clone
+-------------------
+
+git clone root@localhost:/root/docker/dockergit dockerwww(newname)
+
+
+
+
+######################################### docker-machine ######################################
+
+in root
+
+
+
+curl -L https://github.com/docker/machine/releases/download/v0.6.0/docker-machine-`uname -s`-`uname -m` > /usr/local/bin/docker-machine && chmod +x /usr/local/bin/docker-machine
+
+or 
+
+
+wget https://github.com/docker/machine/releases/download/v0.6.0/docker-machine-$(uname -s)-$(uname -m)
+
+mv docker-machine-Linux-x86_64 docker-machine
+
+chmod +x docker-machine
+
+sudo mv docker-machine /usr/local/bin
+
+docker-machine version
+
+
+
+
+
+
+
+
+
+
+##################################### docker compose ############################################################
+
+in root
+
+curl -L https://github.com/docker/compose/releases/download/1.8.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+
+
+or 
+
+
+sudo apt-get -y install python-pip
+
+sudo pip install -y docker-compose
+
+pip uninstall docker-compose
+
+
+mkdir ~/hello-world && cd $_
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+http://buildvirtual.net/docker-installing-docker-on-ubuntu-trusty-14-04/
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+sudo apt-get install apparmor lxc cgroup-lite
+sudo apt-get  install docker.io
+# if you installed docker.io first, you'll have to start it manually
+sudo docker -d
+sudo docker run -i -t ubuntu /bin/bash 
+ 
+
+
+
+---------------------------------------------------------------------
+
+
+
+nsenter
+------
+
+
+# Ubuntu 14.04 don't have nsenter - the straight forward way required me to install build tools and etc.
+# I preferred to keep the system clean and install nsenter in a container and then copy the command to the host
+# Note - its also possible to run nsenter from a container (didn't tried) https://github.com/jpetazzo/nsenter
+
+# start a container
+docker run --name nsenter -it ubuntu:14.04 bash
+
+## in the docker
+apt-get update
+apt-get install git build-essential libncurses5-dev libslang2-dev gettext zlib1g-dev libselinux1-dev debhelper lsb-release pkg-config po-debconf autoconf automake autopoint libtool
+
+git clone git://git.kernel.org/pub/scm/utils/util-linux/util-linux.git util-linux
+cd util-linux/
+
+./autogen.sh
+./configure --without-python --disable-all-programs --enable-nsenter
+make
+
+## from different shell - on the host
+docker cp nsenter:/util-linux/nsenter /usr/local/bin/
+docker cp nsenter:/util-linux/bash-completion/nsenter /etc/bash_completion.d/nsenter
+
+
+
+**********************************************
+
+sudo nsenter -t $(docker inspect --format '{{ .State.Pid }}' $(docker ps -lq)) -m -u -i -n
+
+The above will enter you into the latest running container on your host.
+
+
+
+
+(docker inspect --format '{{ .State.Pid }}' [container_id])
+
+This returns the PID of the specified container which we pass into the -t option of nsenter by formatting the JSON output of docker inspect.
+
+
+
+
+
+(docker ps -lq)
+
+This returns the container ID of the last running container (-q means only container ID and -l means lastest).
+
+
+-------------------------------------------------------------------------
+nsenter installation 
+
+
+
+sudo docker run  --rm -v /usr/local/bin:/target jpetazzo/nsenter
+
+
+8888888888888888888888888888888888888888888888888888888888888888
+
+https://www.unixmen.com/setup-linux-containers-using-lxc-on-ubuntu-15-04/
+
+
+88888888888888888888888888888888888888888888888888888888888888888888888
+
+
+
+
+
+
+
+
+
+
+
+
+
+inside ubuntu
+-------------
+
+apt-get git-core
+
+\curl -sSL https://get.rvm.io | bash
+
+source /etc/profile.d/rvm.sh
+
+apt-get install  ruby ruby-full build-essential libruby libxslt1-dev libxml2-dev  zlib1g-dev libreadline6-dev openssl libssl-dev libpq-dev imagemagick graphicsmagick-libmagick-dev-compat
+
+rvm install 1.8.7
+
+rvmsudo gem update --system 1.3.7
+
+rvmsudo gem install rails -v=2.2.2 --no-rdoc --no-ri
+
+rvm install 1.9.2
+
+rvm --default use system
+
+
+
+
+
+
+
+00 00 * * * /opt/PostgreSQL/9.0/bin/psql -c "vacuum verbose analyse" -d prashant_live_5mar13 -p 5433 >> /home/sarin/script/vaccum.log 2>&1
+
+DevOps is an emerging set of principles, methods and practices for communication, collaboration and integration between software development (application/software engineering) and IT operations (systems administration/infrastructure) professionals.
+
+
+
+
+
+------------------------------------------------------------------------
+https://linuxconfig.org/creating-a-redhat-package-repository
+---------------------------------------------------------------------------
+
+
+
+
+To Mount CD/DVD-ROM
+
+mkdir /cdrom
+
+mount -t iso9660 -o ro /dev/cdrom /cdrom
+
+
+
+
+Go to /etc/yum.repos.d/
+
+Create a File iso.repo
+
+
+Add these Lines in iso.repo
+
+[server]
+name=server
+baseurl=file:///cdrom
+gpgcheck=0
+
+
+sudo yum clean all
+
+sudo yum list all
+
+
+[zydus@b1vm1 yum.repos.d]$ cat centos.repo 
+[centos]
+name=CentOS $releasever - $basearch
+baseurl=http://ftp.heanet.ie/pub/centos/6/os/$basearch/
+enabled=1
+gpgcheck=0
+
+
+
+
+http://sso.letv.com/
+
+
+
+
+-------------------------------------------------------------
+
+
+
+
+Current Company: Srishti Software Application Pvt Ltd
+
+Current CTC: 3.0 LA
+
+Expected CTC: 4.5 LA
+
+Notice Period: 1 Month
+
+Total Experience: 2 years
+
+Relevant Experience: 2 years
+
+Current Location: Bangalore
+
+Date of Birth: 15-03-1987
+
+Current No.: 8123424608
+
+Alternate Number(Mandate): 9206206278
+
+
+
+####################################################################################
+
+infocmp -C > /etc/termcap
+
+
+
+########################################  Install Sublime Text 3 ####################################3
+
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
+
+
+
+################################################ CHEF ######################################################################
+
+first install DNS   http://www.krizna.com/ubuntu/configure-dns-server-ubuntu-14-04/
+
+
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-a-chef-server-workstation-and-client-on-ubuntu-vps-instances
+
+http://www.slashroot.in/how-install-and-configure-chef-server-ubuntu-1404
+
+https://www.linode.com/docs/applications/chef/deploy-a-chef-server-workstation-and-node-on-ubuntu-14-04
+
+
+
+sudo dpkg -i chef-server*
+
+sudo chef-server-ctl reconfigure
+
+https://server_domain_or_IP or 
+
+
+sudo vi /etc/hosts
+
+111.222.333.444     chef.domain.com   chef
+
+hostname -f
+
+
+***********************************************************************************************
+
+Username : venk
+password : venk123
+
+organization: dellinc
+
+emailid: vallidskb@gmail.com
+
+
+*********************************************************************************************
+
+
+
+
+
+find . -mtime -1
+
+
+
+
+javin@testenv1 ~/java : find . -mtime 1  (find all the files modified exact 1 day)
+
+javin@testenv1 ~/java : find . -mtime -1 (find all the files modified less than 1 day)
+.
+./StockTrading.java
+
+javin@testenv1 ~/java : find . -mtime +1 (find all the files modified more than 1 day)
+./.vimrc
+./OnlineStockTrading.java
+./StockTrading.java~
+
+
+How to delete temporary files using find command in Unix?
+find . -name "*.tmp" -print | xargs rm –f
+
+
+In a file word UNIX is appearing many times? How will you count number?
+grep -c "Unix" filename
+
+
+telnet hostname port
+
+netstat -a | grep "port"
+
+replace
+sed s/Unix/UNIX/g fileName
+
+
+
+
+
+888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+                                 Jenkins
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+
+
+With Ubuntu 14.4 I had to change the file /etc/default/jenkins
+
+
+HTTP_PORT=8083
+
+••••••••••••••••••••••••••••••••
+
+
+
+<passwordHash>#jbcrypt:$2a$10$WK.rKkWhfwm99ODOAeJrFeiPPbslq2vE8N6IJ7KvI2Iqx7Oowik5y</passwordHash>
+
+
+
+
+
+
+
+
+ Resume Headline : Having 4 + Years of Experience in Z-soft technology services Pvt Ltd. permanent working as a Build and Release/DeVops Engineer at Hydearabad Location- Skil Set: SVN,MAVEN,JENKINS,CHEF Enterprise Version - GIT, LINUX and Windows OS
+
+    Current Designation: Dev-ops Engineer
+    Current Company: Z-soft technology services pvt ltd
+    Current Location: Hyderabad / Secunderabad
+    Preferred Location: Bengaluru / Bangalore, Chennai, Hyderabad
+    Functional Area: IT Software - Client Server
+    Role: Release Mgr
+    Industry:IT-Software/Software Services
+    Date of Birth: Mar 15, 1987
+    Gender: Male
+
+    Total Experience: 04 Year(s) 03 Month(s)
+    Annual Salary: Rs. 7 lakh(s) 40 thousand(s)
+    Highest Degree: PG Education [MCA]
+    Phone: 919343557455 Verify
+    Email: sdkvalli.devops@gmail.com (Verified)
+    Permanent Address: sdkvalli.devops@gmail.com
+    Hometown/City: Not Mentioned
+    Pin Code:Not Mentioned
+    Marital Status: Married
+
+Key Skills: SVN, Build, Release Engineering, Software Configuration Management, Build Management, Release Management, Jenkins, Maven
+
+
+Profile Summary Edit
+Having 4 + Years of Experience in Z-soft technology services Pvt Ltd with permanant employee working as a Build and Release / DeVops Engineer at Hyderabad Location- Skil Set: SVN,MAVEN,JENKINS, CHEF Enterprise Version - GIT, LINUX and Windows O/S
+Employment Details + Add an Employer/Designation
+
+    Currently working at Z-soft technology services pvt ltd as Dev-ops EngineerEdit | Delete
+    Nov 2012 to Present (4 year(s) - 3 month(s)) Dev-Ops Engineer
+
+Projects Add Projects
+Not Mentioned
+IT Skills Edit/Add
+Skill Name 	Version 	Last Used 	Experience
+SVN 	1.9.2 	2014 	2 Year(s) 07 Month(s)
+GIT 	2.8.4 	2017 	2 Year(s) 00 Month(s)
+Jenkins 	1.6.4 	2017 	3 Year(s) 02 Month(s)
+MAVEN 	3.2.3 	2017 	2 Year(s) 03 Month(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------
+                                           JENKINS
+--------------------------------------------------------------------------------------------------
+
+Introduction to Jenkins
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   1   jenkins is a opensource continuous integration tool written in java.
+
+   2   jenkins is an award-winning, cross-platform, continuous integration and continuous delivery application that increases your productivity.
+
+   3   jenkins  is used to build and test your software projects continuously making it easier for developers to integrate changes to the project. and making it easier
+       for users to obtain a fresh build.
+
+   4   jenkins also allows you to continuously delivery your software by providing powerful ways to define your build piplines and intergrating with a large number of 
+       testing and deployment technologies.
+
+
+
+CONTINUOUS INTEGRATION
+----------------------------------
+
+   1   Continuous Integration (CI)  is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is
+       then verified by an automate build, tested properly allowing teams to detect problems early.
+
+   2   CI was intended to be used in combination with automated unit tests.
+   
+   3   Initialy this was conceived of as running all unit tests in the developer's local environment and verifying they all passed before committing to the source code
+       repository.
+
+   4   Later elaborations of the concept introduced build servers, which automatically run the unit tests periodicaly or even after every commit and reported the result
+       to the developers
+
+     
+Features of Jenkins:
+---------------------
+
+     1 Easy Installation:    Installation of jenkins is very easy. No databases is required.
+
+     2 Easy Configuration:   Jenkins can be configured entirely from its user-friendly web GUI with extensive on-the-fly error checks and inline help.
+
+     3 Plugin Ecosystem:    Jenkins integrates with virtualy every SCM or build tool that exists.
+
+     4 Entensibility:       Most parts of jenkins can be extended and modified. This allows you to customize jenkins to your needs.
+
+     5 Distributed Builds:  Jenkins can distribute build/test loads to mulitiple computers with different operating systems like Windows.MacOSX and Unix.
+
+
+
+
+
+
+
+
+
+
+How to add the new user in jenkins
+--------------------------------------------------
+
+first go to the manage jenkins 
+
+select manage users
+
+and select create user
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tomcat Installation;
+---------------------------------------------------
+
+
+1 install jdk
+
+1) sudo mkdir /usr/lib/jvm
+
+2) sudo mv jdk-7u51-linux-x64.tar.gz /usr/lib/jvm/
+
+3) cd /usr/lib/jvm
+
+4) sudo tar zxvf jdk-7u51-linux-x64.tar.gz 
+
+5) sudo ln -s -b /usr/lib/jvm/jdk1.7.0_51/jre/bin/java /etc/alternatives/java
+
+6) sudo ln -s -b /usr/lib/jvm/jdk1.7.0_51/jre/bin/java /usr/bin/java
+
+7) java -version
+
+export JAVA_HOME=/usr/lib/jvm/jdk1.7.0_51
+
+
+
+
+
+
+
+
+
+2 copy of tomcat.tgz file
+
+3 configure Jdk and catalina
+
+
+
+
+
+ <role rolename="manager-gui"/>
+  <user username="tomcat" password="tomcat" roles="manager-gui"/>
+
+
+
+
+
+
+
+
+
+In a file word UNIX is appearing many times? How will you count number?
+
+grep -c "Unix" filename
+
+
+
+
+
+
+
+There is a file Unix_Test.txt which contains words Unix, how will you replace all Unix to UNIX?
+
+You can answer this Unix Command Interview question by using SED command in
+
+UNIX for example you can execute following command to replace all Unix word to UNIX
+
+
+sed s/Unix/UNIX/g fileName
+
+
+
+
+
+
+You have a tab separated file which contains Name, Address and PhoneNumber, list down all Phone Number without there name and Addresses?
+
+To answer this Unix Command Interview question you can either you AWK or CUT
+
+command here. CUT use tab as default separator so you can use
+
+
+cut -f3 filename
+
+
+
