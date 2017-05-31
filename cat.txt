@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 hi this is mergeing conflict
+=======
+Schrö
+>>>>>>> f8aae740c47673214f4a086107e9c89e8a1f0f65
